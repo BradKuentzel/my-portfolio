@@ -11,28 +11,28 @@ export default function NavBar() {
 						to="/"
 						exact
 						activeClassName="text-white"
-						className="inflex-flex items-center py-7 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+						className="inflex-flex items-center py-7 px-3 mr-4 text-red-100 hover:text-green-200 text-4xl font-bold cursive tracking-widest"
 					>
 						Brad
 					</NavLink>
 					<NavLink
 						to="/post"
-						activeClassName="text-red-100 bg-green-700"
-						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+						activeClassName="text-red-100 bg-blue-600"
+						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-200"
 					>
 						Blog Posts
 					</NavLink>
 					<NavLink
 						to="/projects"
-						activeClassName="text-red-100 bg-green-700"
-						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+						activeClassName="text-red-100 bg-blue-600"
+						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-200"
 					>
 						Projects
 					</NavLink>
 					<NavLink
 						to="/about"
-						activeClassName="text-red-100 bg-green-700"
-						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
+						activeClassName="text-red-100 bg-blue-600"
+						className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-200"
 					>
 						About
 					</NavLink>
