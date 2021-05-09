@@ -48,7 +48,7 @@ export default function SinglePost() {
 							</h1>
 							<div className="flex justify-center text-gray-600">
 								<img
-									src={urlFor(post.authourImage).url()}
+									src={urlFor(post.authorImage).url()}
 									alt={post.name}
 									className="w-10 h-10 rounded-full"
 								/>
