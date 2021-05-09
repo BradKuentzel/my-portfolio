@@ -22,7 +22,7 @@ export default function Projects() {
 			.catch(console.error);
 	}, []);
 	return (
-		<main className="bg-blue-100 min-h-screen p-12">
+		<main className="bg-blue-200 min-h-screen p-12">
 			<section className="container mx-auto">
 				<h1 className="text-5xl flex justify-center cursive">My Projects</h1>
 				<h2 className="text-lg text-gray-600 flex justify-center mb-12">
@@ -33,7 +33,7 @@ export default function Projects() {
 						projectData.map((project, index) => (
 							<article
 								key={index}
-								className="relative rounded-lg shadow-xl bg-white p-16"
+								className="relative rounded-lg shadow-xl bg-red-100 p-16"
 							>
 								<h3 className="text-gray-800 text-3xl font-bold hover:text-blue-700">
 									<a
