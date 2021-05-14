@@ -28,12 +28,12 @@ export default function Projects() {
 				<h2 className="text-lg text-gray-600 flex justify-center mb-12">
 					Welcome to my projects page!
 				</h2>
-				<section className="grid grid-cols-2 gap-8">
+				<section className="flex-col lg:grid lg:grid-cols-2 gap-8">
 					{projectData &&
 						projectData.map((project, index) => (
 							<article
 								key={index}
-								className="relative rounded-lg shadow-xl bg-red-100 p-16"
+								className="relative rounded-lg shadow-xl bg-red-100 p-16 mt-8"
 							>
 								<h3 className="text-gray-800 text-3xl font-bold hover:text-blue-700">
 									<a
