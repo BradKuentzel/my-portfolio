@@ -33,7 +33,7 @@ export default function About() {
 			<img
 				src={image}
 				alt="retrowave synth background"
-				className="absolute object-cover sm:object-scale-down w-full h-full"
+				className="absolute object-cover w-full h-full"
 			/>
 			<div className="p-10 lg:pt-48 container mx-auto relative">
 				<section className="bg-blue-400 bg-opacity-50 rounded-lg shadow-2xl lg:flex p-20">
